@@ -1,13 +1,17 @@
 
 package ohtu.verkkokauppa;
 
+
+import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
 import java.util.ArrayList;
 
+@Component
 public class Kirjanpito implements KirjanpitoIO {
     
     private ArrayList<String> tapahtumat;
-
-    public Kirjanpito() {
+    
+     private Kirjanpito() {
         tapahtumat = new ArrayList<String>();
     }
     
