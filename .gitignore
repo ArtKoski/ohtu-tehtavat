@@ -2,3 +2,5 @@
 /viikko2/build/
 viikko3/WebLogin/salasanat.txt
 build/
+.gradle
+**/build/
